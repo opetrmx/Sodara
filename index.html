@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090e1b">
+  <title>Website Sedang Maintenance</title>
+
+  <!-- CSS Eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <div class="icon-box">
+      <svg xmlns="http://www.w3.org/2000/svg"
+           fill="none" viewBox="0 0 24 24"
+           stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.42 15.17 17.25 21
+              a2.652 2.652 0 0 0 3.75-3.75
+              l-5.877-5.877M11.42 15.17
+              l2.496-3.03c.317-.384.74-.626
+              1.208-.766a6.002 6.002 0 0 0
+              6.152-8.799l-3.276 3.276
+              a3 3 0 0 1-4.243-4.243L17.034
+              -1.668a6.002 6.002 0 0 0
+              -8.799 6.152c-.14.468-.382
+              .891-.766 1.208l-3.03 2.496
+              M11.42 15.17 6.6 20.99
+              a2.652 2.652 0 0 1-3.75-3.75
+              l5.877-5.877"/>
+      </svg>
+    </div>
+
+    <p class="label">SYSTEM MAINTENANCE</p>
+
+    <h1>
+      Website Sedang<br>
+      <span>Maintenance</span>
+    </h1>
+
+    <p class="description">
+      Mohon maaf atas ketidaknyamanannya.
+      Kami sedang melakukan pemeliharaan
+      dan pembaruan sistem untuk memberikan
+      pengalaman yang lebih baik.
+      Silakan kembali beberapa saat lagi.
+    </p>
+
+    <div class="status">
+      <span class="dot"></span>
+      <span>Tim kami sedang bekerja</span>
+    </div>
+
+    <p class="footer">
+      &copy; <span id="year"></span>
+      • All Rights Reserved
+    </p>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+
+</body>
+</html>
