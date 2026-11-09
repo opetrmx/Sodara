@@ -3,12 +3,12 @@ const LINK_BELI = "https://wa.me/6285333007008?text=Halo%2C%20saya%20ingin%20bel
 
 const produk = [
   // ---- PRO ----
-  { id: 1,  kategori: "pro", nama: "Camfrog Pro 1 Bulan",   harga: 195000,  deskripsi: "Fitur Pro selama 1 bulan.", gambar: "im/pro/pro1.png" },
-  { id: 2,  kategori: "pro", nama: "Camfrog Pro 1 Tahun",   harga: 1235000, deskripsi: "Fitur Pro selama 1 tahun.", gambar: "im/pro/pro2.png" },
-  { id: 3,  kategori: "pro", nama: "Camfrog Extreme 1 Bulan", harga: 245000,  deskripsi: "Level Extreme selama 1 bulan.", gambar: "im/pro/ext1.png" },
-  { id: 4,  kategori: "pro", nama: "Camfrog Extreme 1 Tahun", harga: 1585000, deskripsi: "Level Extreme selama 1 tahun.", gambar: "im/pro/ext2.png" },
-  { id: 5,  kategori: "pro", nama: "Camfrog Gold 1 Bulan",   harga: 975000,  deskripsi: "Level Gold selama 1 bulan.", gambar: "im/pro/gold1.png" },
-  { id: 6,  kategori: "pro", nama: "Camfrog Gold 1 Tahun",   harga: 6715000, deskripsi: "Level Gold selama 1 tahun.", gambar: "im/pro/gold2.png" },
+  { id: 1,  kategori: "pro", nama: "Camfrog Pro 1 Bulan",   harga: 195000,  deskripsi: "Fitur Pro selama 1 bulan.", gambar: "im/Pro/pro1.png" },
+  { id: 2,  kategori: "pro", nama: "Camfrog Pro 1 Tahun",   harga: 1235000, deskripsi: "Fitur Pro selama 1 tahun.", gambar: "im/Pro/pro2.png" },
+  { id: 3,  kategori: "pro", nama: "Camfrog Extreme 1 Bulan", harga: 245000,  deskripsi: "Level Extreme selama 1 bulan.", gambar: "im/Pro/ext1.png" },
+  { id: 4,  kategori: "pro", nama: "Camfrog Extreme 1 Tahun", harga: 1585000, deskripsi: "Level Extreme selama 1 tahun.", gambar: "im/Pro/ext2.png" },
+  { id: 5,  kategori: "pro", nama: "Camfrog Gold 1 Bulan",   harga: 975000,  deskripsi: "Level Gold selama 1 bulan.", gambar: "im/Pro/gold1.png" },
+  { id: 6,  kategori: "pro", nama: "Camfrog Gold 1 Tahun",   harga: 6715000, deskripsi: "Level Gold selama 1 tahun.", gambar: "im/Pro/gold2.png" },
 
   // ---- COIN ----
   { id: 7,  kategori: "coin", nama: "Camfrog Coin 25",    harga: 45000,   deskripsi: "25 Coin Camfrog.", gambar: "im/Coin/1-25.png" },
