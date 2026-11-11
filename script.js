@@ -4,22 +4,22 @@ const LINK_BELI = "https://wa.me/6285333007008?text=Halo%2C%20saya%20ingin%20bel
 const produk = [
   // ---- PRO ----
   { id: 1,  kategori: "pro", nama: "Camfrog Pro 1 Bulan",   harga: 195000,  deskripsi: "Fitur Pro selama 1 bulan.", gambar: "im/Pro/pro1.png" },
-  { id: 2,  kategori: "pro", nama: "Camfrog Pro 1 Tahun",   harga: 1235000, deskripsi: "Fitur Pro selama 1 tahun.", gambar: "im/Pro/pro2.png" },
+  { id: 2,  kategori: "pro", nama: "Camfrog Pro 1 Tahun",   harga: 1241000, deskripsi: "Fitur Pro selama 1 tahun.", gambar: "im/Pro/pro2.png" },
   { id: 3,  kategori: "pro", nama: "Camfrog Extreme 1 Bulan", harga: 245000,  deskripsi: "Level Extreme selama 1 bulan.", gambar: "im/Pro/ext1.png" },
-  { id: 4,  kategori: "pro", nama: "Camfrog Extreme 1 Tahun", harga: 1585000, deskripsi: "Level Extreme selama 1 tahun.", gambar: "im/Pro/ext2.png" },
-  { id: 5,  kategori: "pro", nama: "Camfrog Gold 1 Bulan",   harga: 975000,  deskripsi: "Level Gold selama 1 bulan.", gambar: "im/Pro/gold1.png" },
-  { id: 6,  kategori: "pro", nama: "Camfrog Gold 1 Tahun",   harga: 6715000, deskripsi: "Level Gold selama 1 tahun.", gambar: "im/Pro/gold2.png" },
+  { id: 4,  kategori: "pro", nama: "Camfrog Extreme 1 Tahun", harga: 1591000, deskripsi: "Level Extreme selama 1 tahun.", gambar: "im/Pro/ext2.png" },
+  { id: 5,  kategori: "pro", nama: "Camfrog Gold 1 Bulan",   harga: 978000,  deskripsi: "Level Gold selama 1 bulan.", gambar: "im/Pro/gold1.png" },
+  { id: 6,  kategori: "pro", nama: "Camfrog Gold 1 Tahun",   harga: 6747000, deskripsi: "Level Gold selama 1 tahun.", gambar: "im/Pro/gold2.png" },
 
   // ---- COIN ----
   { id: 7,  kategori: "coin", nama: "Camfrog Coin 25",    harga: 45000,   deskripsi: "25 Coin Camfrog.", gambar: "im/Coin/1-25.png" },
   { id: 8,  kategori: "coin", nama: "Camfrog Coin 100",   harga: 87000,   deskripsi: "100 Coin Camfrog.", gambar: "im/Coin/2-100.png" },
   { id: 9,  kategori: "coin", nama: "Camfrog Coin 350",   harga: 174000,  deskripsi: "350 Coin Camfrog.", gambar: "im/Coin/3-350.png"},
   { id: 10, kategori: "coin", nama: "Camfrog Coin 1050",  harga: 350000,  deskripsi: "1050 Coin Camfrog.", gambar: "im/Coin/4-1050.png"},
-  { id: 11, kategori: "coin", nama: "Camfrog Coin 3050",  harga: 870000,  deskripsi: "3050 Coin Camfrog.", gambar: "im/Coin/5-3050.svg"},
-  { id: 12, kategori: "coin", nama: "Camfrog Coin 5050",  harga: 1305000, deskripsi: "5050 Coin Camfrog.", gambar: "im/Coin/6-5050.png"},
-  { id: 13, kategori: "coin", nama: "Camfrog Coin 7050",  harga: 1740000, deskripsi: "7050 Coin Camfrog.", gambar: "im/Coin/7-7050.png"},
-  { id: 14, kategori: "coin", nama: "Camfrog Coin 16000", harga: 3480000, deskripsi: "16000 Coin Camfrog.", gambar: "im/Coin/8-16000.png"},
-  { id: 15, kategori: "coin", nama: "Camfrog Coin 25000", harga: 5220900, deskripsi: "25000 Coin Camfrog.", gambar: "im/Coin/9-25000.svg"}
+  { id: 11, kategori: "coin", nama: "Camfrog Coin 3050",  harga: 875000,  deskripsi: "3050 Coin Camfrog.", gambar: "im/Coin/5-3050.svg"},
+  { id: 12, kategori: "coin", nama: "Camfrog Coin 5050",  harga: 1315000, deskripsi: "5050 Coin Camfrog.", gambar: "im/Coin/6-5050.png"},
+  { id: 13, kategori: "coin", nama: "Camfrog Coin 7050",  harga: 1750000, deskripsi: "7050 Coin Camfrog.", gambar: "im/Coin/7-7050.png"},
+  { id: 14, kategori: "coin", nama: "Camfrog Coin 16000", harga: 3500000, deskripsi: "16000 Coin Camfrog.", gambar: "im/Coin/8-16000.png"},
+  { id: 15, kategori: "coin", nama: "Camfrog Coin 25000", harga: 5250900, deskripsi: "25000 Coin Camfrog.", gambar: "im/Coin/9-25000.svg"}
 ];
 
 /* ====== LOGIKA (umumnya tidak perlu diubah) ====== */
