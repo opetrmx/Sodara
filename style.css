@@ -1,7 +1,7 @@
 /* ====== Variabel warna (mudah diubah) ====== */
 :root {
-  --warna-utama: #ee4d2d;   /* oranye Shopee */
-  --warna-latar: #f5f5f5;
+  --warna-utama: #111311;   /* oranye Shopee */
+  --warna-latar: #eff1f1;
   --warna-kartu: #ffffff;
   --warna-teks: #333333;
   --warna-harga: #ee4d2d;
@@ -25,7 +25,7 @@ body {
 
 /* ====== Header ====== */
 .header {
-  background: var(--warna-utama);
+  background: linear-gradient(90deg, #141414, #ee4d2d);#1cdf84;
   padding: 12px 0;
   position: sticky;
   top: 0;
@@ -90,7 +90,7 @@ body {
 /* ====== Banner ====== */
 .banner {
   margin-top: 6px;
-  background: linear-gradient(90deg, #ff6633, #ee4d2d);
+  background: linear-gradient(90deg, #141414, #ee4d2d);
   border-radius: 4px;
   color: #fff;
   padding: 30px;
@@ -213,7 +213,7 @@ body {
   padding: 20px;
   color: var(--warna-abu);
   font-size: 12px;
-  background: #fff;
+  background: linear-gradient(90deg, #141414, #ee4d2d);#fff;
   border-top: 1px solid #eee;
 }
 .footer a { color: var(--warna-utama); }
@@ -222,6 +222,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
 
 /* ====== Responsif ====== */
 @media (max-width: 600px) {
